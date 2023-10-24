@@ -1,6 +1,7 @@
 import {CiMenuFries} from "react-icons/ci"
 
 import "./menu.css"
+import { Link } from "react-router-dom";
 
 export default () => {
   return (
@@ -21,7 +22,7 @@ export default () => {
       >
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasTopLabel">
-            FLY.<span>Go</span>
+            FLY.<span>GO</span>
           </h5>
           <button
             type="button"
@@ -32,10 +33,10 @@ export default () => {
         </div>
         <div class="offcanvas-body">
         <ul>
-        <li> <span>Principal</span> </li>
-        <li>Sobre</li>
-        <li>Destinos</li>
-        <li>Preços</li>
+        <li> <Link to={"/"}><span>Principal</span></Link> </li>
+        <li><a href="#customers">Depoimentos</a></li>
+        <li><Link to={"/destiny"}>Destinos</Link></li>
+        <li><a href="#pricing">Preços</a></li>
       </ul>
         </div>
       </div>

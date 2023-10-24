@@ -40,7 +40,7 @@ export default () => {
 
   return (
     <main>
-      <div className="images">
+      <div className="images" id="pricing">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}

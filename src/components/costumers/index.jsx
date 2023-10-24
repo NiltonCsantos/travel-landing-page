@@ -6,7 +6,7 @@ import p3 from "../../assets/images/p3.png";
 
 export default () => {
   return (
-    <div className="costumers">
+    <div className="costumers" id="costumers">
       <h2>
         O que nossos <br /> clientes dizem?
       </h2>

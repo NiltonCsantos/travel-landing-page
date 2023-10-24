@@ -1,0 +1,26 @@
+.dashboard{
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dashboard>.countries{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.dashboard>.countries>.country{
+  text-align: center;
+  justify-content: center;
+  box-shadow: 7px 8px 8px -5px rgba(0,0,0,0.1);
+}
+
+.dashboard>.countries>.country>img{
+
+  width: 200px;
+
+}

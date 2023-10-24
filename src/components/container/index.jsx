@@ -4,13 +4,16 @@ import SectionCaroulsel from "../main-caroulsel"
 import Footer from "../footer"
 
 import "./container.css"
+
+import { Outlet } from "react-router-dom"
+
 export default()=>{
 
   return(
   
     <div id="container">
         <Header/>
-        <Cover/>
+        <Outlet/>
         <SectionCaroulsel/>
         <Footer/>
   </div>

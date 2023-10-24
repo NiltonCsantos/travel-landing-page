@@ -2,18 +2,20 @@ import "./header.css"
 
 import Menu from "./menu"
 
+import { Link } from "react-router-dom"
+
 export default ()=>{
 
   return(
     <header>
 
-      <h2>FLY.<span>Go</span></h2>
+      <h2>FLY.<span>GO</span></h2>
 
       <ul>
-        <li> <span>Principal</span> </li>
-        <li>Sobre</li>
-        <li>Destinos</li>
-        <li>Preços</li>
+        <li> <Link to={"/"}><span>Principal</span></Link> </li>
+        <li><a href="#costumers">Depoimentos</a></li>
+        <li><Link to={"/destiny"}>Destinos</Link></li>
+        <li><a href="#pricing">Preços</a></li>
       </ul>
 
       <Menu/>

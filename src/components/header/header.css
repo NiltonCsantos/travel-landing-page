@@ -1,4 +1,8 @@
-#container>header{
+a:hover {
+  color: #00000092;
+}
+
+#container > header {
   padding: 2rem 0rem;
   display: flex;
   justify-content: space-between;
@@ -7,15 +11,25 @@
   width: 90%;
 }
 
-#container>header>ul{
+#container > header > ul {
   list-style: none;
   display: flex;
   gap: 3rem;
 }
 
-@media(max-width:600px){
-  #container>header>ul{
+@media (max-width: 600px) {
+  #container > header > ul {
     display: none;
   }
 }
 
+#container > header > ul > li > a {
+  text-decoration: none;
+  color: #000;
+}
+
+li:hover{
+  border-bottom: 1px solid;
+  transition: 0.5s;
+  border-color:  #eb4813f0;
+}
