@@ -1,0 +1,20 @@
+.container>header{
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  width: 90%;
+}
+
+.container>header>ul{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+@media(max-width:600px){
+  .container>header>ul{
+    display: none;
+  }
+}
