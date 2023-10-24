@@ -18,6 +18,7 @@ import img4 from "../../assets/images/4.png";
 import img5 from "../../assets/images/5.png";
 
 import Section from "./section";
+import Costumers from "../costumers";
 
 export default () => {
   const [swiperInstance, setSwiperInstance] = useState(null);
@@ -88,6 +89,7 @@ export default () => {
         </Swiper>
       </div>
       <Section/>
+      <Costumers/>
     </main>
   );
 };

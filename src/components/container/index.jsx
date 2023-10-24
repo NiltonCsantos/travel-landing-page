@@ -1,6 +1,7 @@
 import Cover from "../cover"
 import Header from "../header"
 import SectionCaroulsel from "../main-caroulsel"
+import Footer from "../footer"
 
 import "./container.css"
 export default()=>{
@@ -11,6 +12,7 @@ export default()=>{
         <Header/>
         <Cover/>
         <SectionCaroulsel/>
+        <Footer/>
   </div>
   )
 }

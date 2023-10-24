@@ -1,5 +1,9 @@
+
 .menu{
   display: none;
+}
+.menu>.btn{
+  font-size: 3.5rem;
 }
 
 @media(max-width:600px){

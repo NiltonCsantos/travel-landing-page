@@ -57,9 +57,10 @@ li, button, .support, .contact, .client:hover{
   border: none;
 border-radius: 26px;
 background: rgba(235, 72, 19, 0.94);
-width: 140px;
-height: 45px;
+width: 150px;
+height: 55px;
 color: #ffffFF;
+font-size: 18px;
 }
 
 #container>.cover>.main-content>ul{
@@ -86,6 +87,13 @@ color: #ffffFF;
 
   display: flex;
 
+  font-size: 30px;
+
+  align-items: center;
+  gap: 5px;
+
+
+
 }
 
 @media(max-width:1200px){
@@ -102,34 +110,27 @@ color: #ffffFF;
     flex-wrap: wrap;
     width: 200px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
 }
 
-#container>.cover>.main-content>ul>li{
-  /* border: 2px solid; */
-  font-size: 30px;
-}
+
+
 
 #container>.cover>.main-content>ul>li>.icon{
 
   width: 40px;
+
   height: 40px; 
   /* border: 2px solid; */
-  margin-top: -1.5rem;
  
   /* margin-right: -0.5rem; */
   
 
 }
-#container>.cover>.main-content>ul>li>.icon{
 
-  margin-top: 0;
- 
-  
 
-}
 
 
 #container>.cover>.main-content>ul>li>span{
@@ -252,7 +253,8 @@ color: #ffffFF;
      
     top: 0;
     margin-top: 3rem;
-    width: 100px;
+    padding: 0;
+    text-align: center;
       
   }
 
@@ -267,6 +269,7 @@ color: #ffffFF;
   padding: 10px;
   position: absolute;
   bottom: 0;
+  
 
 }
 
@@ -283,8 +286,9 @@ color: #ffffFF;
 @media(max-width:500px){
 
   #container>.cover>.cover-image>.client>.reviews{
-    width: 120px;
-   
+    width: 180px;
+    padding: 20px 10px 0px 10px;
+    margin-top: -1rem;   
   }
 
 }

@@ -6,6 +6,7 @@ export default () => {
   return (
     <div className="menu">
       <CiMenuFries
+      className="btn"
         data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasTop"
         aria-controls="offcanvasTop"

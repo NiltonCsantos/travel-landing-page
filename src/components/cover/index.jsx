@@ -8,7 +8,7 @@ import {GiCommercialAirplane} from "react-icons/gi"
 
 import {TbWorldCheck} from "react-icons/tb"
 
-import{MdConnectingAirports} from "react-icons/md"
+import{SiYourtraveldottv} from "react-icons/si"
 
 import{BsWhatsapp} from "react-icons/bs"
 import{AiFillStar} from "react-icons/ai"
@@ -46,10 +46,10 @@ export default()=>{
 
       
       <ul>
-        <li><TbWorldCheck className="icon"/>1200+
+        <li><TbWorldCheck className="icon"/>9200+
             <br /><span>viagens concluídas</span>
         </li>
-        <li ><MdConnectingAirports className="icon"/>700+<br />
+        <li ><SiYourtraveldottv className="icon"/>1500+<br />
           <span>Campanhas Concluídas</span>
         </li>
         <li><BsPersonVcard className="icon"/> 5000+

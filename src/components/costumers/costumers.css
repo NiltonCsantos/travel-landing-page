@@ -1,0 +1,55 @@
+.costumers{
+  padding: 2rem;
+  text-align: center;
+}
+.costumers>h2{
+  padding: 2rem;
+}
+
+.costumers>.explain{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.costumers>.explain>.costumer{
+
+  display: flex;
+
+  width: 350px;
+  height: 280px;
+  padding: 2rem;
+  background-color: #f0ebea;
+  box-shadow: 0px 0px 8px -3px rgba(0, 0, 0, 0.778);
+}
+@media(max-width:360px){
+  .costumers>.explain>.costumer{
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.costumers>.explain>.costumer>.description{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  height: 200px;
+  padding-top: 1rem;
+
+  
+  
+}
+.costumers>.explain>.costumer>.description>p{
+
+  margin-bottom: 0rem;  
+  
+}
+.costumers>.explain>.costumer>img{
+  
+  width: 60px;
+  height: 60px;
+  border-radius: 250px;
+
+}
