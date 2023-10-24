@@ -6,13 +6,10 @@ li, button, .support, .contact, .client:hover{
   cursor: pointer;
 }
 
-
-
 #container>.cover{
   padding: 0rem 2rem;
   min-height: 80vh;
   display: flex;
-  /* border: 50px solid; */
   width: 100%;
 }
 
@@ -21,7 +18,6 @@ li, button, .support, .contact, .client:hover{
     flex-direction: column-reverse;
     align-items: center;
     padding: 0em 1rem;
-    /* justify-content: center; */
   }
 }
 
@@ -45,13 +41,7 @@ li, button, .support, .contact, .client:hover{
 #container>.cover>.main-content>p{
   opacity: 0.85;
 }
-#container>.cover>.main-content>.divulgation{
 
-
- 
-
-
-}
 
 #container>.cover>.main-content>.divulgation>button{
   border: none;
@@ -64,18 +54,12 @@ font-size: 18px;
 }
 
 #container>.cover>.main-content>ul{
-
   display: flex;
   align-items: center;
   list-style: none;
   gap: 2rem;
   padding: 0rem 0.5rem;
   margin-top: 2rem;
-
-  /* border: 2px solid; */
- 
-
-
 }
 @media(max-width:500px){
   #container>.cover>.main-content>ul{
@@ -86,13 +70,9 @@ font-size: 18px;
 #container>.cover>.main-content>ul>li{
 
   display: flex;
-
   font-size: 30px;
-
   align-items: center;
   gap: 5px;
-
-
 
 }
 
@@ -123,11 +103,6 @@ font-size: 18px;
   width: 40px;
 
   height: 40px; 
-  /* border: 2px solid; */
- 
-  /* margin-right: -0.5rem; */
-  
-
 }
 
 
@@ -136,7 +111,6 @@ font-size: 18px;
 #container>.cover>.main-content>ul>li>span{
 
   font-size: 15px;
-  
 
 }
 
@@ -146,8 +120,6 @@ font-size: 18px;
   position: relative;
   justify-content: center;
   padding: 2rem;
-  /* border: 2px solid; */
-
 }
 
 @media(max-width:960px){
@@ -172,8 +144,6 @@ font-size: 18px;
   }
 }
 
-
-
 #container>.cover>.cover-image>.contact{
   display: flex;
   align-items: center;
@@ -196,10 +166,7 @@ font-size: 18px;
   #container>.cover>.cover-image>.contact{
     width: 80px;
     height: 80px;
-
-    margin-right:0rem;
-    /* margin-top: 13rem; */
-      
+    margin-right:0rem;      
   }
 
   #container>.cover>.cover-image>.contact>p{
@@ -269,7 +236,6 @@ font-size: 18px;
   padding: 10px;
   position: absolute;
   bottom: 0;
-  
 
 }
 

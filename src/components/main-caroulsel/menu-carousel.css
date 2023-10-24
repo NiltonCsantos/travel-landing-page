@@ -1,14 +1,10 @@
 main {
   background-color: #ffffff;
   width: 100%;
-
-  /* overflow: hidden; */
 }
 
 main .images .swiper {
   width: 100%;
-
-  /* padding: 2rem 0rem; */
 }
 main .images .swiper-slide {
   width: 350px;
