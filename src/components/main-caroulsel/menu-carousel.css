@@ -1,0 +1,55 @@
+main {
+  background-color: #ffffff;
+  width: 100%;
+
+  /* overflow: hidden; */
+}
+
+main .images .swiper {
+  width: 100%;
+
+  /* padding: 2rem 0rem; */
+}
+main .images .swiper-slide {
+  width: 350px;
+  height: auto;
+  position: relative;
+
+  width: 350px;
+  height: auto;
+}
+@media (max-width: 500px) {
+  main .images .swiper-slide {
+    width: 70%;
+  }
+}
+main .images .swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+main .images .swiper {
+  width: 100%;
+  padding: 2rem 0rem;
+}
+
+main .images .swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+main .images .swiper-slide .country {
+  background-color: rgba(0, 0, 0, 0.643);
+  position: absolute;
+  top: 0;
+  padding:5px;
+  color: #ffffff;
+}
+main .images .swiper-slide .price {
+  background-color: rgba(0, 0, 0, 0.643);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding:  10px;
+  color: #ffffff;
+}

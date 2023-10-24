@@ -1,0 +1,23 @@
+.menu{
+  display: none;
+}
+
+@media(max-width:600px){
+  .menu{
+    display: block;
+  }
+}
+
+.menu>.offcanvas{
+  background-color:  #e4dcd8;
+}
+
+.menu>.offcanvas>.offcanvas-body>ul {
+
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+  
+}
+

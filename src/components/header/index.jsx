@@ -1,5 +1,7 @@
 import "./header.css"
 
+import Menu from "./menu"
+
 export default ()=>{
 
   return(
@@ -13,6 +15,8 @@ export default ()=>{
         <li>Destinos</li>
         <li>Preços</li>
       </ul>
+
+      <Menu/>
       
     </header>
   )

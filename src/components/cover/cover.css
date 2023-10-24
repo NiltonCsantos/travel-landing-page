@@ -8,7 +8,7 @@ li, button, .support, .contact, .client:hover{
 
 
 
-.container>.cover{
+#container>.cover{
   padding: 0rem 2rem;
   min-height: 80vh;
   display: flex;
@@ -17,7 +17,7 @@ li, button, .support, .contact, .client:hover{
 }
 
 @media(max-width:960px){
-  .container>.cover{
+  #container>.cover{
     flex-direction: column-reverse;
     align-items: center;
     padding: 0em 1rem;
@@ -25,7 +25,7 @@ li, button, .support, .contact, .client:hover{
   }
 }
 
-.container>.cover>.main-content{
+#container>.cover>.main-content{
   padding: 2rem;
   width: 50%;
   display: flex;
@@ -35,17 +35,17 @@ li, button, .support, .contact, .client:hover{
 }
 
 @media(max-width:960px){
-  .container>.cover>.main-content{
+  #container>.cover>.main-content{
     width: 100%;
     justify-content: center;
     align-items: center;
   }
 }
 
-.container>.cover>.main-content>p{
+#container>.cover>.main-content>p{
   opacity: 0.85;
 }
-.container>.cover>.main-content>.divulgation{
+#container>.cover>.main-content>.divulgation{
 
 
  
@@ -53,7 +53,7 @@ li, button, .support, .contact, .client:hover{
 
 }
 
-.container>.cover>.main-content>.divulgation>button{
+#container>.cover>.main-content>.divulgation>button{
   border: none;
 border-radius: 26px;
 background: rgba(235, 72, 19, 0.94);
@@ -62,7 +62,7 @@ height: 45px;
 color: #ffffFF;
 }
 
-.container>.cover>.main-content>ul{
+#container>.cover>.main-content>ul{
 
   display: flex;
   align-items: center;
@@ -77,12 +77,12 @@ color: #ffffFF;
 
 }
 @media(max-width:500px){
-  .container>.cover>.main-content>ul{
+  #container>.cover>.main-content>ul{
     flex-direction: column;
   }
 
 }
-.container>.cover>.main-content>ul>li{
+#container>.cover>.main-content>ul>li{
 
   display: flex;
 
@@ -90,14 +90,14 @@ color: #ffffFF;
 
 @media(max-width:1200px){
 
-  .container>.cover>.main-content>ul>li{
+  #container>.cover>.main-content>ul>li{
     flex-direction: column;
   }
 
 }
 @media(max-width:500px){
 
-  .container>.cover>.main-content>ul>li{
+  #container>.cover>.main-content>ul>li{
     flex-direction: row;
     flex-wrap: wrap;
     width: 200px;
@@ -107,12 +107,12 @@ color: #ffffFF;
 
 }
 
-.container>.cover>.main-content>ul>li{
+#container>.cover>.main-content>ul>li{
   /* border: 2px solid; */
   font-size: 30px;
 }
 
-.container>.cover>.main-content>ul>li>.icon{
+#container>.cover>.main-content>ul>li>.icon{
 
   width: 40px;
   height: 40px; 
@@ -123,7 +123,7 @@ color: #ffffFF;
   
 
 }
-.container>.cover>.main-content>ul>li>.icon{
+#container>.cover>.main-content>ul>li>.icon{
 
   margin-top: 0;
  
@@ -132,14 +132,14 @@ color: #ffffFF;
 }
 
 
-.container>.cover>.main-content>ul>li>span{
+#container>.cover>.main-content>ul>li>span{
 
   font-size: 15px;
   
 
 }
 
-.container>.cover>.cover-image{
+#container>.cover>.cover-image{
   width: 50%;
   display: flex;
   position: relative;
@@ -150,30 +150,30 @@ color: #ffffFF;
 }
 
 @media(max-width:960px){
-  .container>.cover>.cover-image{
+  #container>.cover>.cover-image{
     width: 100%;
     justify-content: center;
     align-items: center;
   }
 }
-.container>.cover>.cover-image>img{
+#container>.cover>.cover-image>img{
        width:70%;
 }
 
 @media(max-width:960px){
-  .container>.cover>.cover-image>img{
+  #container>.cover>.cover-image>img{
     width: 300px;
   }
 }
 @media(max-width:500px){
-  .container>.cover>.cover-image>img{
+  #container>.cover>.cover-image>img{
     width: 280px;
   }
 }
 
 
 
-.container>.cover>.cover-image>.contact{
+#container>.cover>.cover-image>.contact{
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -192,7 +192,7 @@ color: #ffffFF;
 
 @media(max-width:1200px){
 
-  .container>.cover>.cover-image>.contact{
+  #container>.cover>.cover-image>.contact{
     width: 80px;
     height: 80px;
 
@@ -201,13 +201,13 @@ color: #ffffFF;
       
   }
 
-  .container>.cover>.cover-image>.contact>p{
+  #container>.cover>.cover-image>.contact>p{
     display: none;
   }
 }
 @media(max-width:500px){
 
-  .container>.cover>.cover-image>.contact{
+  #container>.cover>.cover-image>.contact{
      
     margin-top: 0;
     width: 60px;
@@ -215,15 +215,15 @@ color: #ffffFF;
       
   }
 
-  .container>.cover>.cover-image>.contact>p{
+  #container>.cover>.cover-image>.contact>p{
     display: none;
   }
 }
-.container>.cover>.cover-image>.contact>.whatsapp{
+#container>.cover>.cover-image>.contact>.whatsapp{
   font-size: 45px;
 }
 
-.container>.cover>.cover-image>.support{
+#container>.cover>.cover-image>.support{
   display: block;
   background-color: #E09CA4;
   padding: 10px;
@@ -238,7 +238,7 @@ color: #ffffFF;
 
 @media(max-width:960px){
 
-  .container>.cover>.cover-image>.support{
+  #container>.cover>.cover-image>.support{
      
     margin-left: 0;
       
@@ -248,7 +248,7 @@ color: #ffffFF;
 
 @media(max-width:500px){
 
-  .container>.cover>.cover-image>.support{
+  #container>.cover>.cover-image>.support{
      
     top: 0;
     margin-top: 3rem;
@@ -258,7 +258,7 @@ color: #ffffFF;
 
 }
 
-.container>.cover>.cover-image>.client{
+#container>.cover>.cover-image>.client{
 
   display: flex;
   align-items: center;
@@ -272,7 +272,7 @@ color: #ffffFF;
 
 
 
-.container>.cover>.cover-image>.client>.reviews{
+#container>.cover>.cover-image>.client>.reviews{
   margin-top: -1.5rem;
   padding: 40px 20px 20px 20px;
   border-radius: 5px;
@@ -282,12 +282,12 @@ color: #ffffFF;
 
 @media(max-width:500px){
 
-  .container>.cover>.cover-image>.client>.reviews{
+  #container>.cover>.cover-image>.client>.reviews{
     width: 120px;
    
   }
 
 }
-.container>.cover>.cover-image>.client>img{
+#container>.cover>.cover-image>.client>img{
  z-index: 1;
 }
