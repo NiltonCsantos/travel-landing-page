@@ -17,8 +17,6 @@ export default () => {
     try {
       const response = await (await indexServices.getData()).data;
 
-      console.log(response);
-
       setCountries(response.reverse().slice(0, 30));
     } catch (error) {
       console.log(error);
@@ -33,13 +31,13 @@ export default () => {
 
       <div className="countries">
         {countries.map((country, index) => {
-          console.log(country);
-
           return (
             <div className="country" key={index}>
               <img src={country.flags.png} alt="" />
-              <p>{country.name.common}</p>
-              <p>{country.region}</p>
+              <div>
+                <p>{country.name.common}</p>
+                <p>{country.region}</p>
+              </div>
             </div>
           );
         })}
